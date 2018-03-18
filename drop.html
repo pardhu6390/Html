@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Newton Projects Limited </title>
+	<meta name="viewport" content="width=device-width,inital-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="drop.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	<h1> Newton Projects Limited</h1>
+
+<header>
+	<div class="logo"> <img src="web.png"></div>
+	<div class="menu"><span class="fa fa-list modify"></span></div>
+</header> 
+<nav class="nav"> 
+	<ul>
+		<ul>
+			<li><a href="#"><span class="fa fa-home"></span>Home</a></li>
+			<li><a href="#"><span class="fa fa-code"></span>Code</a>
+				<ul>
+					<li><a href="#"> java script</a></li>
+					<li><a href="#"> Html</a></li>
+					<li><a href="#"> css</a></li>
+
+			</li>
+				
+				</ul>
+			<li><a href="#"><span class="fa fa-Projects"></span>Projects</a></li>
+			<li><a href="#"><span class="fa fa-About"></span>About</a></li>
+			<li><a href="#"><span class="fa fa-Videos"></span>Videos</a></li>
+
+		</ul>
+	</ul>
+</nav>
+
+<section class="container">
+<h1>Welcome to newton Projects Limited</h1>
+<p>We are offering the services website,android development as well as interior designing and executions</p>
+	
+</section>
+</body>
+</html>
+<script type="text/javascript">
+	var menu = false;
+	$(".fa-list.modify").click(function(){
+		if (menu == false) {
+			$(".nav").fadeIn();
+			menu =true;
+		}
+		else{
+			$(".nav").fadeout();
+			menu = false;
+		}
+	})
+
+
+
+</script>
